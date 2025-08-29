@@ -29,11 +29,9 @@ export default function Navbar() {
             <a href="#how" className="text-sm opacity-80 hover:opacity-100">
               How to Join
             </a>
-            <a href="#gallery" className="text-sm opacity-80 hover:opacity-100">
-              Gallery
-            </a>
-            <a href="#cta" className="text-sm opacity-80 hover:opacity-100">
-              CTA
+
+            <a href="#faq" className="text-sm opacity-80 hover:opacity-100">
+              FAQ
             </a>
             <button
               type="button"
@@ -92,18 +90,11 @@ export default function Navbar() {
               How to Join
             </a>
             <a
-              href="#gallery"
+              href="#faq"
               onClick={() => setOpen(false)}
               className="text-sm opacity-80 hover:opacity-100"
             >
-              Gallery
-            </a>
-            <a
-              href="#cta"
-              onClick={() => setOpen(false)}
-              className="text-sm opacity-80 hover:opacity-100"
-            >
-              CTA
+              FAQ
             </a>
           </motion.div>
         )}

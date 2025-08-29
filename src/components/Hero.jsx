@@ -149,7 +149,7 @@ function ButtonsWithBones() {
           href="#kit"
           className="px-5 py-3 rounded-2xl border border-white/20 hover:border-white/40"
         >
-          Download Meme Kit
+          Buy $BORK
         </a>
       </div>
 

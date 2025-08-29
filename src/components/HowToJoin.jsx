@@ -32,7 +32,7 @@ export default function HowToJoin() {
 
   return (
     <section
-      id="join"
+      id="how"
       className="relative py-24 bg-bork-ink/5 dark:bg-bork-ink/90"
     >
       <div className="max-w-6xl mx-auto px-6">
