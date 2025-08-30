@@ -41,7 +41,7 @@ export default function Hero() {
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-10 items-center">
-          {/* LEFT — single headline + copy */}
+          {/* LEFT */}
           <div className="relative z-10">
             <motion.h1
               initial={{ opacity: 0, y: 18 }}
@@ -50,13 +50,12 @@ export default function Hero() {
               transition={{ duration: 0.7 }}
               className="font-display text-5xl sm:text-6xl md:text-7xl font-black tracking-tight leading-[0.95]"
               style={{
-                // subtle chroma via text-shadows (no duplicate layers => no overflow)
                 textShadow:
                   "1px 1px 0 rgba(255,153,180,0.25), -1px -1px 0 rgba(157,220,255,0.25)",
               }}
             >
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-bork-yellow via-bork-pink to-bork-blue text-glow">
-                The chain is BORKED
+                Just a Dog That Borks
               </span>
             </motion.h1>
 
@@ -67,18 +66,14 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.12 }}
               className="relative z-10 mt-6 text-lg md:text-xl opacity-80 max-w-prose"
             >
-              A glorious low-res dog that survived 16 screenshots and still went
-              to the moon. Art first, vibes second, utility optional. If it
-              looks too polished—we bork it.
+              One of the first tokens to launch on Moonbound. No insiders. No
+              whitelist. Just a nonchalant dog that borks instead of barks.
             </motion.p>
 
             <ButtonsWithBones />
-            <div className="mt-4 text-xs opacity-60">
-              No promises. Only borks.
-            </div>
           </div>
 
-          {/* RIGHT — parallax polaroid dog (no small tags) */}
+          {/* RIGHT */}
           <motion.div
             className="relative mx-auto w-full max-w-md"
             style={{ rotateX: rotX, rotateY: rotY }}
@@ -143,7 +138,7 @@ function ButtonsWithBones() {
           onAnimationEnd={() => setSpray(false)}
           className="px-5 py-3 rounded-2xl bg-gradient-to-br from-bork-yellow via-bork-pink to-bork-blue text-bork-ink font-semibold shadow-floof"
         >
-          Join the Barklist
+          Join the Borklist
         </button>
         <a
           href="#kit"

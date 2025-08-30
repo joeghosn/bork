@@ -1,31 +1,31 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { PawPrint, Send, Rocket, Trophy } from "lucide-react";
+import { Rocket, Download, Coins, Bell } from "lucide-react";
 
 export default function HowToJoin() {
   const steps = [
     {
-      icon: <Send className="h-8 w-8" />,
-      title: "Join the Pack Chat",
-      body: "Hop into Telegram where chaos starts & memes never stop.",
+      icon: <Download className="h-8 w-8" />,
+      title: "Install Wallet",
+      body: "Grab an EVM compatible wallet (e.g., MetaMask).",
       rot: -2,
     },
     {
-      icon: <Rocket className="h-8 w-8" />,
-      title: "Grab Some $BORKED",
-      body: "Snag tokens on the DEX — no whitelist, no presale, just vibes.",
+      icon: <Coins className="h-8 w-8" />,
+      title: "Fund with KAS",
+      body: "Send KAS into your wallet. You’ll need it to swap for $BORK when it goes live.",
       rot: 3,
     },
     {
-      icon: <PawPrint className="h-8 w-8" />,
-      title: "Make Some Noise",
-      body: "Drop memes, raid posts, howl loud. The pack notices the loudest bark.",
+      icon: <Bell className="h-8 w-8" />,
+      title: "Wait for launch",
+      body: "Wait for the contract address to drop on our socials.",
       rot: 1,
     },
     {
-      icon: <Trophy className="h-8 w-8" />,
-      title: "Earn & Flex",
-      body: "Top raiders + meme lords get rewarded with airdrops & glory.",
+      icon: <Rocket className="h-8 w-8" />,
+      title: "Swap on Moonbound",
+      body: "Connect your wallet to Moonbound and swap KAS → $BORK.",
       rot: -1,
     },
   ];

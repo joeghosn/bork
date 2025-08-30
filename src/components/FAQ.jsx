@@ -5,20 +5,20 @@ import { ChevronDown } from "lucide-react";
 export default function FAQ() {
   const faqs = [
     {
-      q: "What is $BORKED?",
-      a: "A meme coin that embraced chaos. Scuffed. Glitched. Alive.",
+      q: "How do I join the BORK fair launch?",
+      a: "Wait for the contract address to drop on socials. Then open your wallet, fund it with KAS, and swap KAS → BORK on Moonbound.",
+    },
+    // {
+    //   q: "Is there a presale or whitelist?",
+    //   a: "No. Fair launch on a DEX. Art first, vibes second.",
+    // },
+    {
+      q: "What chain is this on?",
+      a: "Kaspa",
     },
     {
-      q: "Is there a presale or whitelist?",
-      a: "No. Fair launch on a DEX. Art first, vibes second.",
-    },
-    {
-      q: "How do I join?",
-      a: "Grab $BORKED on a DEX, raid Twitter, and howl in Telegram with the pack.",
-    },
-    {
-      q: "Are there rewards?",
-      a: "Yes—meme lords and top raiders get airdrops and glory.",
+      q: "Why $BORK?",
+      a: "Because it's the most nonchalant dog.",
     },
   ];
   const [open, setOpen] = useState(false);
@@ -36,7 +36,7 @@ export default function FAQ() {
           >
             Frequently{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-bork-yellow via-bork-pink to-bork-blue">
-              Borked
+              Asked
             </span>{" "}
             Questions
           </motion.h2>

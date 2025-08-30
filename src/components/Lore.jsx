@@ -4,20 +4,20 @@ import { motion } from "framer-motion";
 export default function Lore() {
   const beats = [
     {
-      title: "The Break",
-      body: "The chain hiccuped. Order dissolved. Signal slipped out of noise.",
+      title: "The Nonchalant Dog",
+      body: "I’m Bork. Don’t overthink it. I don’t bark — I bork.",
     },
     {
-      title: "Glitch → Style",
-      body: "Compression scars became texture. Imperfection became the look.",
+      title: "Kaspa Chose Me",
+      body: "I’m Kaspa’s nonchalant dog. You stress, I bork.",
     },
     {
-      title: "Pack Energy",
-      body: "Strays synced. Raids formed. Culture outran coordination.",
+      title: "Fair Means Fair",
+      body: "No whitelist. No insiders. If you’re here, you're just like the rest.",
     },
     {
-      title: "Make it More Borked",
-      body: "If it’s polished, we scuff it until it feels true.",
+      title: "Join or Don’t",
+      body: "Makes no difference to me. I’m just too chill to care.",
     },
   ];
 
@@ -42,7 +42,7 @@ export default function Lore() {
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-bork-yellow via-bork-pink to-bork-blue">
             Lore
           </span>{" "}
-          of BORKED
+          of BORK
         </motion.h2>
 
         {/* Flow grid */}

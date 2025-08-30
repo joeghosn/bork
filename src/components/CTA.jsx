@@ -14,7 +14,7 @@ export default function CTA() {
           className="text-4xl sm:text-5xl md:text-6xl font-black"
         >
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-bork-yellow via-bork-pink to-bork-blue">
-            Bark with the Pack
+            Bork with the pack
           </span>
         </motion.h2>
 
@@ -25,8 +25,7 @@ export default function CTA() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mt-5 text-lg sm:text-xl opacity-80"
         >
-          Get early updates, meme assets, and launch info. <br />
-          No spam. Only borks.
+          Get important updates and launch info.
         </motion.p>
 
         {/* buttons */}
@@ -47,10 +46,6 @@ export default function CTA() {
           >
             Follow on X
           </a>
-        </div>
-
-        <div className="mt-6 text-xs opacity-60">
-          This is not financial advice. It&apos;s barely design advice.
         </div>
       </div>
     </section>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useTheme } from "../theme";
 import { Moon, Sun, Menu, X } from "lucide-react";
 import { motion } from "framer-motion";
+import dog from "../assets/borked.jpg";
 
 export default function Navbar() {
   const { theme, toggle } = useTheme();
@@ -13,11 +14,15 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 group">
-            <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-bork-yellow to-bork-pink grid place-items-center shadow-floof">
-              <span className="text-xl">🐶</span>
+            <div className="h-9 w-9 rounded-xl overflow-hidden shadow-floof">
+              <img
+                src={dog}
+                alt="Borked logo"
+                className="h-full w-full object-cover"
+              />
             </div>
             <span className="font-display font-bold tracking-wide text-xl group-hover:animate-wiggle">
-              Borked
+              Bork
             </span>
           </a>
 
@@ -29,7 +34,6 @@ export default function Navbar() {
             <a href="#how" className="text-sm opacity-80 hover:opacity-100">
               How to Join
             </a>
-
             <a href="#faq" className="text-sm opacity-80 hover:opacity-100">
               FAQ
             </a>
@@ -66,7 +70,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Mobile dropdown (no closing animation) */}
+        {/* Mobile dropdown */}
         {open && (
           <motion.div
             id="mobile-nav"
